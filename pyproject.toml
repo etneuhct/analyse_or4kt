@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "analysis-or4kt"
+version = "0.1.0"
+description = ""
+authors = ["Jack <jacktchuente@gmail.com>"]
+readme = "README.md"
+packages = [{include = "analysis_or4kt"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.1"
+factor-analyzer = "^0.4.1"
+xlsxwriter = "^3.0.3"
+semopy = "^2.3.9"
+graphviz = "^0.20.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
